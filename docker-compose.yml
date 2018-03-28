@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  helloweb:
+    image: helloweb
+    build:
+      context: .
+      dockerfile: HelloWeb/Dockerfile
